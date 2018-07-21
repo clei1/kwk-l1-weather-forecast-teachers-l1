@@ -35,5 +35,5 @@ end
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 def convert_temp(weather)
-	weather[:temperature_farenheit]
+	return (weather[:temperature_farenheit] - 32) * 5/9
 end
